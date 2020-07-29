@@ -6,10 +6,14 @@
   "dependencies": {},
   "devDependencies": {
     "cypress": "^4.11.0",
+    "serve": "^11.3.2",
     "start-server-and-test": "^1.11.2"
   },
   "scripts": {
-    "test": "echo Test"
+    "start": "serve -p 3030 public",
+    "cy:run": "cypress run",
+    "cy:chrome": "cypress run --browser chrome",
+    "test": "start-server-and-test start cy:run"
   },
   "repository": {
     "type": "git",
