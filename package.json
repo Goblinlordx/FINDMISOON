@@ -13,7 +13,7 @@
     "start": "serve -p 3030 public",
     "cy:run": "cypress run",
     "cy:chrome": "cypress run --browser chrome",
-    "test": "start-server-and-test start cy:run"
+    "test": "start-server-and-test start http://localhost:3030 cy:run"
   },
   "repository": {
     "type": "git",
