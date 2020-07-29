@@ -1,0 +1,24 @@
+{
+  "name": "findmisoon",
+  "version": "1.0.0",
+  "description": "This was made quickly to help someone using the information from this facebook post: https://www.facebook.com/groups/everyexpatinkorea/?post_id=10157280637516696",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.11.0",
+    "start-server-and-test": "^1.11.2"
+  },
+  "scripts": {
+    "test": "echo Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreicali/FINDMISOON.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreicali/FINDMISOON/issues"
+  },
+  "homepage": "https://find-misoon.web.app"
+}
